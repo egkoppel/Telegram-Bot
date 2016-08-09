@@ -15,3 +15,9 @@ How to create a bot for Telegram
 9. Now you will need to set up some commands like `/help`. To do this send `/setcommands` to BotFather. He will prompt you for a bot and then tell you to format one command per line. By default, to type a new line press `shift + enter`
 
 ## Download the code
+1. Click the green download button and download the files as a .zip and unzip them
+2. Open main.py and change the line that says ```python
+TOKEN = 'API TOKEN'
+``` to ```python
+TOKEN = 'whatever your api token from BotFather is'
+```
