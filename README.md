@@ -26,7 +26,7 @@ TOKEN = 'whatever your api token from BotFather is'
 ```
 
 ## Set up the project in Google Cloud Console
-1. Go to the (Google Cloud Console)[console.cloud.google.com]
+1. Go to the [Google Cloud Console](console.cloud.google.com)
 2. Click create new project, and enter your bot's name
 	- Underneath the name it should show a project id
 	- Note this id down somewhere
@@ -41,7 +41,7 @@ application: the project id from step 2
 ```
 
 ## Download and setup Google App Engine Launcher
-1. Download the (Google App Engine for Python)[https://cloud.google.com/appengine/downloads#Google_App_Engine_SDK_for_Python]
+1. Download the [Google App Engine for Python](https://cloud.google.com/appengine/downloads#Google_App_Engine_SDK_for_Python)
 	- Download it
 	- Install it
 	- Open it
