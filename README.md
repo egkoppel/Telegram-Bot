@@ -41,3 +41,10 @@ application: the project id from step 2
 ```
 
 ## Download and setup Google App Engine Launcher
+1. Download the (Google App Engine for Python)[https://cloud.google.com/appengine/downloads#Google_App_Engine_SDK_for_Python]
+	- Download it
+	- Install it
+	- Open it
+2. Choose `File/Add Existing Application` and in the path box, browse to the `Code` folder
+3. Click Add
+4. In the main screen, select it (It should have the project id you entered under name) and choose `Deploy`
