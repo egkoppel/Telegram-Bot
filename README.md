@@ -16,8 +16,10 @@ How to create a bot for Telegram
 
 ## Download the code
 1. Click the green download button and download the files as a .zip and unzip them
-2. Open main.py and change the line that says ```python
+2. Open main.py and change the line that says
+``` Python
 TOKEN = 'API TOKEN'
-``` to ```python
+``` to
+``` Python
 TOKEN = 'whatever your api token from BotFather is'
 ```
