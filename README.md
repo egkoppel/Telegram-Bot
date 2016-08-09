@@ -16,7 +16,7 @@ How to create a bot for Telegram
 
 ## Download the code
 1. Click the green download button and download the files as a .zip and unzip them
-2. Open main.py and change the line that says
+2. Open `main.py` and change the line that says
 ```Python
 TOKEN = 'API TOKEN'
 ```
@@ -24,3 +24,20 @@ to
 ```Python
 TOKEN = 'whatever your api token from BotFather is'
 ```
+
+## Set up the project in Google Cloud Console
+1. Go to the (Google Cloud Console)[console.cloud.google.com]
+2. Click create new project, and enter your bot's name
+	- Underneath the name it should show a project id
+	- Note this id down somewhere
+3. Create the project
+4. In `app.yaml` change the line that says
+```YAML
+application: project id
+```
+to
+```YAML
+application: the project id from step 2
+```
+
+## Download and setup Google App Engine Launcher
