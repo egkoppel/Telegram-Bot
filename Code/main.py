@@ -6,9 +6,6 @@ import urllib
 import urllib2
 
 
-# for sending images
-from PIL import Image
-import multipart
 
 # standard app engine imports
 from google.appengine.api import urlfetch
@@ -19,9 +16,6 @@ TOKEN = 'API TOKEN'
 
 BASE_URL = 'https://api.telegram.org/bot' + TOKEN + '/'
 
-GAME = 0
-GAME_ANSWER = ''
-GAME_QUESTION = 0
 
 
 class EnableStatus(ndb.Model):
@@ -119,12 +113,14 @@ class WebhookHandler(webapp2.RequestHandler):
                 reply('Bot disabled')
                 setEnabled(chat_id, False)
             elif '/help' in text:
+                # CUTOMISE FROM HERE
                 send('I\'m a bot')
             elif '/roll' in text:
                 send(name + ' rolled a die and got ' + str(random.randrange(1,7)))
             else:
                 reply('What command?')
         # MESSAGES
+        # CUSTOMISE FROM HERE
         elif 'who are you' in text.lower():
             reply('I am a bot.\nFor more information type /help.')
         elif 'hello' in text.lower():
