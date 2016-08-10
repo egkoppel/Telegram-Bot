@@ -5,7 +5,7 @@ How to create a bot for Telegram
 1. Set up a Telegram account if you haven't got one already
   - Go to the [Telegram website](https://web.telegram.org/)
   - Follow the instructions to set up an account
-2. Open a chat with `@BotFather` or go to [http://telegram.me/botfather](telegram.me/botfather)
+2. Open a chat with `@BotFather` or go to [telegram.me/botfather](http://telegram.me/botfather)
 3. Click start if prompted to, and enter `/newbot`
 4. BotFather should reply `Alright, a new bot. How are we going to call it? Please choose a name for your bot.`
 5. Enter a name for your bot
