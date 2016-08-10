@@ -51,7 +51,7 @@ application: the project id from step 2
 5. It will then open up a log of the deployment
 
 ## Testing
-1. In a browser go to https://api.telegram.org/botTOKEN/getMe replacing TOKEN with your api token
+1. In a browser go to `https://project-id.appspot.com/me` replacing project-id with your Google Project ID
 2. Once it has loaded, it should come up with a JSON file like this
 ```JSON
 {
@@ -63,3 +63,10 @@ application: the project id from step 2
 	}
 }
 ```
+3. Once that has succeeded, go to the URL `https://project-id.appspot.com/set_webhook?url=https://project-id.appspot.com/webhook` replacing both instances of project-id with your Google Project ID
+4. It should then say `Webhook was set`
+5. Now in Telegram, open a chat with your bot. You can do this by either searching for `@bot-username` or going to `telegram.me/bot-username`, replacing `bot-username` with your bot's username
+6. It should then show up with a start button. Click it, and it will show you sent `/start`. If everything is working, your bot will reply `Bot Enabled`.
+7. Now try sending `hello`. Your bot should reply `Hello YourName`
+
+## Customising
