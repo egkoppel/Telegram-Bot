@@ -11,7 +11,7 @@ How to create a bot for Telegram
 5. Enter a name for your bot
 6. BotFather should then ask what your bot's username will be. Enter a username ending in `bot`
 7. If the username hasn't been taken, BotFather will give you an API token
-8. You can then set a description for the bot and add a picture. See the wiki page for more
+8. You can then set a description for the bot and add a picture. See the wiki page for more. Information about bots in group chats are also on the Wiki
 9. Now you will need to set up some commands like `/help`. To do this send `/setcommands` to BotFather. He will prompt you for a bot and then tell you to format one command per line. By default, to type a new line press `shift + enter`
 
 ## Download the code
@@ -102,4 +102,8 @@ Sent message
 ![Reply to message](/images/reply.jpg?raw=true "A reply to a message sent with reply()")
 Replied message
 
-5. Then you must deploy it again
+5. Then you must deploy it again. Also, every time you update it, you should change the version number
+```YAML
+version: 2
+```
+in `app.yaml`
