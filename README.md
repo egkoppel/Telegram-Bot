@@ -26,7 +26,7 @@ TOKEN = 'whatever your api token from BotFather is'
 ```
 
 ## Set up the project in Google Cloud Console
-1. Go to the [Google Cloud Console](console.cloud.google.com)
+1. Go to the [Google Cloud Console](http://console.cloud.google.com)
 2. Click create new project, and enter your bot's name
 	- Underneath the name it should show a project id
 	- Note this id down somewhere
