@@ -96,3 +96,5 @@ elif 'hi' in text.lower():
     send('Hi')
 ```
 to do what you wan't when someone sends a message. You can use `send('my message')` to send a message and `reply('my message')` to reply to the message. Both types are shown below
+![Send message](/imgages/send.jpg?raw=true "A message sent with send()")
+![Reply to message](/imgages/reply.jpg?raw=true "A reply to a message sent with reply()")
