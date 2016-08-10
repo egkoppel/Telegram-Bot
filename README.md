@@ -48,3 +48,18 @@ application: the project id from step 2
 2. Choose `File/Add Existing Application` and in the path box, browse to the `Code` folder
 3. Click Add
 4. In the main screen, select it (It should have the project id you entered under name) and choose `Deploy`
+5. It will then open up a log of the deployment
+
+## Testing
+1. In a browser go to https://api.telegram.org/botTOKEN/getMe replacing TOKEN with your api token
+2. Once it has loaded, it should come up with a JSON file like this
+```JSON
+{
+	"ok":true,
+	"result":{
+		"id":123456789,
+		"first_name":"My Bot",
+		"username":"SomeBot"
+	}
+}
+```
