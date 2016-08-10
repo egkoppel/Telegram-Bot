@@ -116,9 +116,9 @@ class WebhookHandler(webapp2.RequestHandler):
                 # CUTOMISE FROM HERE
                 send('I\'m a bot')
             elif '/roll' in text:
-                send(name + ' rolled a die and got ' + str(random.randrange(1,7)))
+                send(first_name + ' rolled a die and got ' + str(random.randrange(1,7)))
             else:
-                reply('What command?')
+                reply('What command?' + u'\U0001F615')
         # MESSAGES
         # CUSTOMISE FROM HERE
         elif 'who are you' in text.lower():
