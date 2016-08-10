@@ -78,11 +78,13 @@ application: the project id from step 2
             elif '/roll' in text:
                 send(name + ' rolled a die and got ' + str(random.randrange(1,7)))
 ```
-3. Customise the code. The `send('I\'m a bot')` is what is called when someone types `/help`. The add 
+3. Customise the code. The `send('I\'m a bot')` is what is called when someone types `/help`. Then add 
 ```python
 elif '/command' in text:
 	#DO SOMETHING
-``` for each command you have.
+```
+for each command you have.
+
 4. Then customise
 ```python
 # MESSAGES
@@ -95,3 +97,9 @@ elif 'hi' in text.lower():
     send('Hi')
 ```
 to do what you wan't when someone sends a message. You can use `send('my message')` to send a message and `reply('my message')` to reply to the message. Both types are shown below
+![Send message](/images/send.jpg?raw=true "A message sent with send()")
+Sent message
+![Reply to message](/images/reply.jpg?raw=true "A reply to a message sent with reply()")
+Replied message
+
+5. Then you must deploy it again
