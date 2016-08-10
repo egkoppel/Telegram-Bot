@@ -78,11 +78,12 @@ application: the project id from step 2
             elif '/roll' in text:
                 send(name + ' rolled a die and got ' + str(random.randrange(1,7)))
 ```
-3. Customise the code. The `send('I\'m a bot')` is what is called when someone types `/help`. The add 
+3. Customise the code. The `send('I\'m a bot')` is what is called when someone types `/help`. Then add 
 ```python
 elif '/command' in text:
 	#DO SOMETHING
-``` for each command you have.
+```
+for each command you have.
 4. Then customise
 ```python
 # MESSAGES
