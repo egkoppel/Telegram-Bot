@@ -84,6 +84,7 @@ elif '/command' in text:
 	#DO SOMETHING
 ```
 for each command you have.
+
 4. Then customise
 ```python
 # MESSAGES
