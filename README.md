@@ -70,3 +70,28 @@ application: the project id from step 2
 7. Now try sending `hello`. Your bot should reply `Hello YourName`
 
 ## Customising
+1. Open `main.py`
+2. On line 116 there is the below code
+```python
+	# CUTOMISE FROM HERE
+                send('I\'m a bot')
+            elif '/roll' in text:
+                send(name + ' rolled a die and got ' + str(random.randrange(1,7)))
+```
+3. Customise the code. The `send('I\'m a bot')` is what is called when someone types `/help`. The add 
+```python
+elif '/command' in text:
+	#DO SOMETHING
+``` for each command you have.
+4. Then customise
+```python
+# MESSAGES
+# CUSTOMISE FROM HERE
+elif 'who are you' in text.lower():
+    reply('I am a bot.\nFor more information type /help.')
+elif 'hello' in text.lower():
+    send('Hello ' + first_name)
+elif 'hi' in text.lower():
+    send('Hi')
+```
+to do what you wan't when someone sends a message. You can use `send('my message')` to send a message and `reply('my message')` to reply to the message. Both types are shown below
