@@ -100,4 +100,5 @@ to do what you wan't when someone sends a message. You can use `send('my message
 Sent message
 ![Reply to message](/images/reply.jpg?raw=true "A reply to a message sent with reply()")
 Replied message
+
 5. Then you must deploy it again
